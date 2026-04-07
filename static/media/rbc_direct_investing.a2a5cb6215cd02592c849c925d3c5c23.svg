@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="rbcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003168"/>
+      <stop offset="100%" stop-color="#0051a5"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#rbcGrad)"/>
+  <g transform="translate(60,80)" fill="none" stroke="#ffd200" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="0,180 70,140 140,160 210,80 280,120 350,40 420,90 480,30"/>
+    <line x1="0" y1="220" x2="480" y2="220" stroke="#ffffff" stroke-width="3" opacity="0.5"/>
+  </g>
+  <text x="300" y="340" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="34" font-weight="700" fill="#ffffff">RBC Direct Investing</text>
+  <text x="300" y="372" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="18" fill="#ffd200">iOS App Prototype</text>
+</svg>

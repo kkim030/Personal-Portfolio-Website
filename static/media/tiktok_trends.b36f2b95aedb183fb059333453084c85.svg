@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="tkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#010101"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#tkGrad)"/>
+  <g transform="translate(220,70)">
+    <path d="M120,0 C120,30 140,60 180,68 L180,108 C150,108 130,98 115,84 L115,170 C115,210 82,242 42,242 C2,242 -30,210 -30,170 C-30,130 2,98 42,98 C50,98 58,99 65,102 L65,142 C58,138 50,136 42,136 C24,136 10,150 10,168 C10,186 24,200 42,200 C60,200 75,186 75,168 L75,0 Z" fill="#25f4ee"/>
+    <path d="M125,5 C125,35 145,65 185,73 L185,113 C155,113 135,103 120,89 L120,175 C120,215 87,247 47,247 C7,247 -25,215 -25,175 C-25,135 7,103 47,103 C55,103 63,104 70,107 L70,147 C63,143 55,141 47,141 C29,141 15,155 15,173 C15,191 29,205 47,205 C65,205 80,191 80,173 L80,5 Z" fill="#fe2c55" opacity="0.85"/>
+  </g>
+  <text x="300" y="340" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="34" font-weight="700" fill="#ffffff">TikTok Trends Dashboard</text>
+  <text x="300" y="372" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="18" fill="#25f4ee">AI-Powered Creator Analytics</text>
+</svg>
