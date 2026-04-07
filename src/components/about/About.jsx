@@ -11,16 +11,17 @@ const About = () => {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p classsName="about__description">
-              Hello, I'm Kelly, a third-year Computer Science student at the
-              University of British Columbia. I also hold a degree in Finance
-              from the Rotman School of Management at the University of Toronto!
-              Feel free to contact me!
+            <p className="about__description">
+              Hello, I'm Kelly — a Front-End Developer in RBC Capital Markets'
+              QTS Rotational Program. I hold a Bachelor of Computer Science
+              from the University of British Columbia and a Bachelor of
+              Commerce in Finance from the Rotman School of Management at the
+              University of Toronto. Feel free to contact me!
             </p>
             <a
-              href="
-              https://acrobat.adobe.com/id/urn:aaid:sc:us:0f56ca0a-9898-4251-af9a-7d182281dd87"
+              href={`${process.env.PUBLIC_URL}/Kelly_Kim_Resume.pdf`}
               target="_blank"
+              rel="noopener noreferrer"
               className="btn__download"
             >
               Download Resume

@@ -20,17 +20,17 @@ const Portfolio = (props) => {
           All
         </span>
         <span className="work__item" onClick={() => filterItem(1)}>
-          Chrome Extension
+          iOS App
         </span>
         <span className="work__item" onClick={() => filterItem(2)}>
+          Web App
+        </span>
+        <span className="work__item" onClick={() => filterItem(3)}>
+          Chrome Extension
+        </span>
+        <span className="work__item" onClick={() => filterItem(4)}>
           Desktop Application
         </span>
-        {/* <span className="work__item" onClick={() => filterItem("3")}>
-          Something
-        </span>
-        <span className="work__item" onClick={() => filterItem("4")}>
-          Here
-        </span> */}
       </div>
 
       <div className="work__container grid">
